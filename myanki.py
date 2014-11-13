@@ -4,6 +4,7 @@
 import sys
 import os
 import random
+import re
 
 # 一度に出題する数
 NUM = 10
