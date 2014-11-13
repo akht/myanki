@@ -63,3 +63,4 @@ for i in range(NUM):
                 print(correct_sentence)
                 print('~~~~~~入力して覚えよう~~~~~~')
                 input()
+                break
