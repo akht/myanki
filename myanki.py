@@ -12,9 +12,9 @@ NUM = 10
 options = sys.argv[1:]
 
 # 出題するためのファイルを決める
-# デフォルトではfiles/からランダムで選ぶ
+# デフォルトではres/からランダムで選ぶ
 # オプションで指定されていればそれを選ぶ
-dir = './files/'
+dir = './res/'
 filename = random.choice(os.listdir(dir))
 pattern = '^[0-9]{1,2}$'
 for i in options:
